@@ -34,6 +34,8 @@ body {
 
 .header {
   background-color: white;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 
 .header__logotext {
@@ -71,6 +73,12 @@ body {
 }
 
 /* Hero section */
+
+.header__bookme {
+  background-color: #2f303a;
+  padding-left: 215px;
+  padding-right: 215px;
+}
 .header__bookme {
   background-color: #2f303a;
   width: 1600px;
@@ -85,8 +93,9 @@ body {
   font-size: 44px;
   font-weight: 900;
   line-height: 60px;
-  letter-spacing: 0.06em;
+  letter: 6%;
   text-align: center;
+  color: #ffffff;
 }
 
 .header__booking {
@@ -111,6 +120,9 @@ body {
 /* About section style */
 
 .about {
+  background-color: #2f303a;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 
 .about__title1 {
@@ -191,4 +203,8 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   color: #212121;
+}
+
+.container {
+  padding: 0 215;
 }

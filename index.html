@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>goit-markup-hw-03</title>
-    
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,38 +20,42 @@
   <body class="body">
     <!--Header section-->
     <header class="header">
-      <div>
-        <a href="#" class="logo"
-          ><h1 class="logotext"><span>Web</span>Studio</h1></a
-        >
-      </div>
-      <nav class="header__navigation">
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
-        </ul>
-      </nav>
-      <div class="header__info">
-        <a href="mail_info@devstudio.com"><span>info@devstudio.com</span></a>
-        <a href="tel:+1212-772-4150">+1 212-772-4150</a>
+      <div class="container">
+        <div>
+          <a href="#" class="logo">
+            <h1 class="logotext"><span>Web</span>Studio</h1></a
+          >
+        </div>
+        <nav class="header__navigation">
+          <ul>
+            <li><a href="index.html">Studio</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header__info">
+          <a href="mail_info@devstudio.com"><span>info@devstudio.com</span></a>
+          <a href="tel:+1212-772-4150">+1 212-772-4150</a>
+        </div>
       </div>
     </header>
     <!--Pagina web-->
     <main>
       <!--Hero section-->
       <section class="header__bookme">
-        <h2 class="header__bookme__slogan">
-          EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
-        </h2>
-        <button class="header__booking" type="submit">
-          <h4>Request our service</h4>
-        </button>
+        <div class="container">
+          <h2 class="header__bookme__slogan">
+            EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
+          </h2>
+          <button class="header__booking" type="submit">
+            <h4>Request our service</h4>
+          </button>
+        </div>
       </section>
       <!--About-->
       <section class="--about--">
         <!--div cu info-->
-        <div>
+        <div class="container">
           <ul>
             <h4 class="about__title1">ATTENTION TO DETAILS</h4>
             <p class="about__title1__p1">
@@ -58,7 +65,7 @@
             </p>
           </ul>
           <ul>
-            <h4 class="about__title2">PUNCTUALITY</h4class>
+            <h4 class="about__title2">PUNCTUALITY</h4>
             <p class="about__title2__p2">
               With us, you can feel safe and secure.<br />
               An important principle of the company:<br />
@@ -84,7 +91,7 @@
         </div>
         <h2>What we do</h2>
         <!--div cu imagini-->
-        <div>
+        <div class="container">
           <img src="img/img_pca.jpg" alt="editing cod" width="325" />
           <img src="img/img_pcb.jpg" alt="optimizare mobile" width="325" />
           <img src="img/img_pcc.jpg" alt="alegere culoare" width="325" />
@@ -92,36 +99,40 @@
       </section>
       <!--Team work-->
       <section>
-        <h2>Our Team</h2>
-        <div style="display: flex">
-          <div>
-            <img src="img/img_t1.jpg" alt="Christopher Walker" width="250" />
-            <p><b>Christopher Walker</b></p>
-            <p>Product Designer</p>
-          </div>
-          <div>
-            <img src="img/img_t2.jpg" alt="Kylie Evans" width="250" />
-            <p><b>Kylie Evans</b></p>
-            <p>Frontend Developer</p>
-          </div>
-          <div>
-            <img src="img/img_t3.jpg" alt="Ryan Harris" width="250" />
-            <p><b>Ryan Harris</b></p>
-            <p>Marketing</p>
-          </div>
-          <div>
-            <img src="img/img_t4.jpg" alt="Tyler Moore" width="250" />
-            <p><b>Tyler Moore</b></p>
-            <p>UI Designer</p>
+        <div class="container">
+          <h2>Our Team</h2>
+          <div style="display: flex">
+            <div>
+              <img src="img/img_t1.jpg" alt="Christopher Walker" width="250" />
+              <p><b>Christopher Walker</b></p>
+              <p>Product Designer</p>
+            </div>
+            <div>
+              <img src="img/img_t2.jpg" alt="Kylie Evans" width="250" />
+              <p><b>Kylie Evans</b></p>
+              <p>Frontend Developer</p>
+            </div>
+            <div>
+              <img src="img/img_t3.jpg" alt="Ryan Harris" width="250" />
+              <p><b>Ryan Harris</b></p>
+              <p>Marketing</p>
+            </div>
+            <div>
+              <img src="img/img_t4.jpg" alt="Tyler Moore" width="250" />
+              <p><b>Tyler Moore</b></p>
+              <p>UI Designer</p>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <a href="#"><h1>WebStudio</h1></a>
-      <address>695 Park Ave, NY 10065, USA</address>
-      <div><a href="mail_info@devstudio.com">info@devstudio.com</a></div>
-      <div><a href="tel:+1212-772-4150">+1 212-772-4150</a></div>
+      <div class="container">
+        <a href="#"><h1>WebStudio</h1></a>
+        <address>695 Park Ave, NY 10065, USA</address>
+        <div><a href="mail_info@devstudio.com">info@devstudio.com</a></div>
+        <div><a href="tel:+1212-772-4150">+1 212-772-4150</a></div>
+      </div>
     </footer>
   </body>
 </html>
